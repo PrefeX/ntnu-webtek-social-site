@@ -1,7 +1,8 @@
 <?php
 
 	chdir('/var/www/html/');
-	$command = shell_exec('git pull');
+	$cmd = 'git pull';
+	$command = shell_exec($cmd);
 	echo "$command";
 
 ?>
