@@ -3,12 +3,14 @@
 
 <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/less.js/2.7.2/less.min.js"></script>
     <link rel="stylesheet" href="css/style.less">
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
 
 </head>
@@ -157,6 +159,12 @@
             <div class="col-lg-6 col-md-6 col-sm-8 col-xs-12 well well-lg">
 
                 <!--First post-->
+				<div class="form-group">
+					<label for="postText">Post</label>
+					<textarea class="form-control" id="postText" rows="3"></textarea>
+					<button type="button" class="btn btn-default" id="postBtn">Post</button>
+				</div>
+					
                 <div class="media">
                     <div class="media-left media-top">
                         <img src="img/man1.png" class="img-rounded pull left lightbox media-object" alt="profile pic" width="50">
