@@ -129,45 +129,135 @@
         </div>
     </div>
 
-
-    <!-- <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="right" title="Tooltip on left">Tooltip on left</button> -->
+    <!--Left column-->
     <div class="container">
         <div class="row">
-            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 text-center">
+            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 text-left">
                 <ul class="list-group">
                     <li class="list-group-item">
                         <a class="thumbnail">
                             <img src="img/man1.png" class="lightbox" alt="...">
                         </a><br>Name: John Doe</li>
-                    <li class="list-group-item">Age: 25yrs</li>
+                    <li class="list-group-item">Age: 25 years</li>
                     <li class="list-group-item">From: Ålesund</li>
                 </ul>
                 <ul class="list-group">
-                    <li class="list-group-item">Age: 3yrs</li>
-                    <li class="list-group-item">From: ....</li>
-                    <li class="list-group-item">Occupation: ...</li>
+                    <li class="list-group-item"><i class="glyphicon glyphicon-home"></i> Lives in: Bergen</li>
+                    <li class="list-group-item"><i class="glyphicon glyphicon-briefcase"></i> Working @: Evry</li>
+                    <li class="list-group-item"><i class="glyphicon glyphicon-education"></i> Went to: NTNU Ålesund</li>
                 </ul>
                 <ul class="list-group">
-                    <li class="list-group-item">Age: 3yrs</li>
-                    <li class="list-group-item">From: ....</li>
-                    <li class="list-group-item">Occupation: ...</li>
+                    <li class="list-group-item"><i class="glyphicon glyphicon-heart-empty"></i> Hobby: Mountain climbing</li>
+                    <li class="list-group-item"><i class="glyphicon glyphicon-apple"></i> Favorite food: Taco</li>
+                    <li class="list-group-item"><i class="glyphicon glyphicon-blackboard"></i> Favorite color: Blue</li>
                 </ul>
             </div>
+
+            <!-- Start of main content. (Middle coloumn)-->
             <div class="col-lg-6 col-md-6 col-sm-8 col-xs-12 well well-lg">
-                <div class="">
-                    <h4>Lorem Ipsum</h4>
 
-                    <img src="img/man1.png" class="img-rounded pull left lightbox" alt="profile pic" width="50">
-                    <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-                    <div class="">
-                        <h4>Lorem Ipsum</h4>
+                <!--First post-->
+                <div class="media">
+                    <div class="media-left media-top">
+                        <img src="img/man1.png" class="img-rounded pull left lightbox media-object" alt="profile pic" width="50">
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">John Doe <small><i>Posted on February 20, 2016</i></small></h4>
+                        </h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <button type="button" class="btn btn-default btn-sm">
+                <span class="glyphicon glyphicon-thumbs-up"></span> Like
+              </button>
+                        <button type="button" class="btn btn-default btn-sm">
+                <span class="glyphicon glyphicon-thumbs-down"></span> Dislike
+              </button>
+
+
+
+                        <!-- Nested media object (first post)-->
+                        <div class="media">
+                            <div class="media-left">
+                                <img src="img/female1.png" class="img-rounded pull left lightbox media-object" alt="profile pic" width="50">
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Jane Doe <small><i>Posted on February 20, 2016</i></small></h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                                <!-- DoubleNested media object (first post)-->
+                                <div class="media">
+                                    <div class="media-left media-top">
+                                        <img src="img/man1.png" class="img-rounded pull left lightbox media-object" alt="profile pic" width="50">
+                                    </div>
+                                    <div class="media-body">
+                                        <h4 class="media-heading">John Doe <small><i>Posted on February 20, 2016</i></small></h4>
+                                        </h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <!-- Nested media object (first post)-->
+                            <div class="media">
+                                <div class="media-left media-top">
+                                    <img src="img/man2.png" class="img-rounded pull left lightbox media-object" alt="profile pic" width="50">
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">Jim D. Olsen <small><i>Posted on February 21, 2016</i></small></h4>
+                                    </h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                        consequat.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Second post-->
+                <div class="media">
+
+                    <div class="media-left media-top">
+                        <img src="img/man1.png" class="img-rounded pull left lightbox media-object" alt="profile pic" width="50">
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">John Doe <small><i>Posted on February 23, 2016</i></small></h4>
+                        <p>Lorem ipsum dolor sit amet:
+                            <img src="img/fjell.jpg" class="thumbnail lightbox" alt="mountain view" width="500">
+                        </p>
+
+                        <!-- Nested media object (second post)-->
+                        <div class="media">
+                            <div class="media-left">
+                                <img src="img/female2.png" class="img-rounded pull left lightbox media-object" alt="profile pic" width="50">
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Jane Doe <small><i>Posted on February 23, 2016</i></small></h4>
+                                <p><i class="glyphicon glyphicon-thumbs-up"></i></p>
+                            </div>
+
+                            <!-- Nested media object (second post)-->
+                            <div class="media">
+                                <div class="media-left media-top">
+                                    <img src="img/oldman1.png" class="img-rounded pull left lightbox media-object" alt="profile pic" width="50">
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">James Doe <small><i>Posted on February 25, 2016</i></small></h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                        consequat.
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
             </div>
+
+
+            <!-- End of main content. (Middle coloumn)-->
+
             <div class="col-lg-3 col-md-3 hidden-sm hidden-xs">
                 <ul class="list-group">
                     <li class="list-group-item">Suggestions</li>
