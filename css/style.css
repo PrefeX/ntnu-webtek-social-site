@@ -20,20 +20,15 @@
       -moz-border-radius-bottomright: 4px;
           border-bottom-right-radius: 4px;
 }*/
-
-
 /**
  * Variables
  */
-
-
 /**
  * Mixins
  */
-
-
 /**
  * CSS
  */
-
-.test {}
+img.lightbox:hover {
+  cursor: pointer;
+}
