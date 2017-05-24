@@ -25,9 +25,9 @@
 /**
  * Variables
  */
+
 @primary: #fff;
 @secondary: #000;
-
 @primary-dark: darken(@primary, 10%);
 @primary-light: lighten(@primary, 10%);
 @secondary-dark: darken(@secondary, 10%);
@@ -37,12 +37,12 @@
  * Mixins
  */
 
-.box-sizing(@type: border-box)
-{
-    -webkit-box-sizing:     @type;
-    -moz-box-sizing:        @type;
-    box-shadow:             @type;
+.box-sizing(@type: border-box) {
+    -webkit-box-sizing: @type;
+    -moz-box-sizing: @type;
+    box-shadow: @type;
 }
+
 
 /**
  * CSS
@@ -50,4 +50,8 @@
 
 img.lightbox:hover {
     cursor: pointer;
+}
+
+a {
+    text-decoration: none;
 }
