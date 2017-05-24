@@ -1,26 +1,38 @@
-### Features
+**IMPORTANT:**
+*This is a proof of concept school project. It is NOT for free use or redistrubation without permission!*
+
+# Bootstrap - Eksamensprosjekt
+
+[![coverage report](http://158.38.101.133/anda702/Bootstrap/badges/master/coverage.svg)](http://158.38.101.133/anda702/Bootstrap/commits/master)
+
+## Features
 - Støtte for mobile enheter
 - Støtte for alle moderne nettlesere
 - Støtte for- og bruk av CSS3 og HTML 5 hvor mulig
 - Designet etter mobile first prinsippet
 
-# Bootstrap - Eksamensprosjekt
+## Table of Contents
 
+<!-- TOC -->
 
-[![coverage report](http://158.38.101.133/anda702/Bootstrap/badges/master/coverage.svg)](http://158.38.101.133/anda702/Bootstrap/commits/master)
+- [Bootstrap - Eksamensprosjekt](#bootstrap---eksamensprosjekt)
+    - [Features](#features)
+    - [Table of Contents](#table-of-contents)
+- [Example sites](#example-sites)
+- [Cheatsheats](#cheatsheats)
+    - [Cheatsheat 1](#cheatsheat-1)
+    - [Cheatsheat 2](#cheatsheat-2)
+    - [Cheatsheat 3](#cheatsheat-3)
 
-**Table of Contents**
+<!-- /TOC -->
 
-[TOCM]
+# Example sites
 
-[TOC]
+    - https://themes.getbootstrap.com/products/application
+    - https://themeforest.net/item/maniac-bootstrap-admin-theme/8148958
+    - http://preview.themeforest.net/item/olympus-html-social-network-toolkit/full_screen_preview/19755363
 
-## Example site
-
-    https://themes.getbootstrap.com/products/application
-
-
-    
+# Cheatsheats
 ## Cheatsheat 1
 
 ```html
