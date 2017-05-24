@@ -1,0 +1,50 @@
+/*.btn-group > .btn-group {
+  float: left;
+}
+.btn-group > .btn-group > .dropdown-toggle {
+  .border-radius(0);
+}
+.btn-group > .btn-group > .dropdown-toggle:first-child {
+     -webkit-border-top-left-radius: 4px;
+         -moz-border-radius-topleft: 4px;
+             border-top-left-radius: 4px;
+  -webkit-border-bottom-left-radius: 4px;
+      -moz-border-radius-bottomleft: 4px;
+          border-bottom-left-radius: 4px;  
+}
+.btn-group > .btn-group > .dropdown-toggle:last-child {
+     -webkit-border-top-right-radius: 4px;
+         -moz-border-radius-topright: 4px;
+             border-top-right-radius: 4px;
+  -webkit-border-bottom-right-radius: 4px;
+      -moz-border-radius-bottomright: 4px;
+          border-bottom-right-radius: 4px;
+}*/
+
+
+/**
+ * Variables
+ */
+@primary: #fff;
+@secondary: #000;
+
+@primary-dark: darken(@primary, 10%);
+@primary-light: lighten(@primary, 10%);
+@secondary-dark: darken(@secondary, 10%);
+@secondary-light: lighten(@secondary, 10%);
+
+/**
+ * Mixins
+ */
+
+.box-sizing(@type: border-box)
+{
+    -webkit-box-sizing:     @type;
+    -moz-box-sizing:        @type;
+    box-shadow:             @type;
+}
+
+/**
+ * CSS
+ */
+
