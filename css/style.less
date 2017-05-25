@@ -25,24 +25,44 @@ img.lightbox:hover {
 }
 
 .newsfeed-grid {
-    margin: 0px 15px;
+    //margin: 0px 15px;
 }
+
+
+/*
+ * The profile post-list
+ */
 
 .newsfeed-post {
     background: @gray-lighter;
-    padding: 10px;
+    /*padding: 5px 15px;*/
+    padding: 25px;
     background: #fff;
     border-radius: 5px;
     /*box-shadow: 2px 2px 5px @gray-light;*/
-
     &:not(:first-of-type) {
         margin: 15px 0;
+    } // UI-buttons on the right side (like, share, etc.)
+    .post-controll-buttons {
+        position: absolute;
+        right: 0px;
+        list-style: none;
+        .btn {
+            display: block;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            margin-bottom: 5px;
+            /*line-height: 100%;*/
+            /*text-align: center;*/
+            /*opacity: 0.8;*/
+        }
     }
-}
-
-.media {
-    &.author {
-        padding-bottom: 1em;
+    .media {
+        &.author {
+            margin: 0px;
+            padding-bottom: 1em;
+        }
     }
 }
 
@@ -52,4 +72,68 @@ img.lightbox:hover {
 
 #postBtn {
     margin-top: 10px;
+}
+
+.media-right .dropdown-menu {
+    z-index: 1000;
+}
+
+.darker {
+    background: @light-darker;
+    width: 100px;
+    height: 100px;
+}
+
+.dark {
+    background: @light-dark;
+    width: 100px;
+    height: 100px;
+}
+
+.base {
+    background: @light;
+    width: 100px;
+    height: 100px;
+}
+
+.light {
+    background: @light-light;
+    width: 100px;
+    height: 100px;
+}
+
+.lighter {
+    background: @light-lighter;
+    width: 100px;
+    height: 100px;
+}
+
+.darker2 {
+    background: @gray-darker;
+    width: 100px;
+    height: 100px;
+}
+
+.dark2 {
+    background: @gray-dark;
+    width: 100px;
+    height: 100px;
+}
+
+.base2 {
+    background: @gray;
+    width: 100px;
+    height: 100px;
+}
+
+.light2 {
+    background: @gray-light;
+    width: 100px;
+    height: 100px;
+}
+
+.lighter2 {
+    background: @gray-lighter;
+    width: 100px;
+    height: 100px;
 }

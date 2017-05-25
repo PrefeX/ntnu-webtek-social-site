@@ -4,6 +4,12 @@
  * Authors: Christian, Stian
  * Do not use or redistrubute any code without written permission
  */
+/*@light-base:              #fff;
+@light-darker:            darken(@light-base, 13.5%); // #222
+@light-dark:              darken(@light-base, 20%);   // #333
+@light:                   darken(@light-base, 33.5%); // #555
+@light-light:             darken(@light-base, 46.7%); // #777
+@light-lighter:           darken(@light-base, 93.5%); // #eee*/
 /****************************************************
  * CSS
  ***************************************************/
@@ -13,12 +19,13 @@ img.lightbox:hover {
 .padding-right {
   padding-right: 10px;
 }
-.newsfeed-grid {
-  margin: 0px 15px;
-}
+/*
+ * The profile post-list
+ */
 .newsfeed-post {
   background: #eeeeee;
-  padding: 10px;
+  /*padding: 5px 15px;*/
+  padding: 25px;
   background: #fff;
   border-radius: 5px;
   /*box-shadow: 2px 2px 5px @gray-light;*/
@@ -26,7 +33,23 @@ img.lightbox:hover {
 .newsfeed-post:not(:first-of-type) {
   margin: 15px 0;
 }
-.media.author {
+.newsfeed-post .post-controll-buttons {
+  position: absolute;
+  right: 0px;
+  list-style: none;
+}
+.newsfeed-post .post-controll-buttons .btn {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-bottom: 5px;
+  /*line-height: 100%;*/
+  /*text-align: center;*/
+  /*opacity: 0.8;*/
+}
+.newsfeed-post .media.author {
+  margin: 0px;
   padding-bottom: 1em;
 }
 #postText {
@@ -34,4 +57,57 @@ img.lightbox:hover {
 }
 #postBtn {
   margin-top: 10px;
+}
+.media-right .dropdown-menu {
+  z-index: 1000;
+}
+.darker {
+  background: #e8e8e8;
+  width: 100px;
+  height: 100px;
+}
+.dark {
+  background: #dcdcdc;
+  width: 100px;
+  height: 100px;
+}
+.base {
+  background: #cfcfcf;
+  width: 100px;
+  height: 100px;
+}
+.light {
+  background: #c2c2c2;
+  width: 100px;
+  height: 100px;
+}
+.lighter {
+  background: #b5b5b5;
+  width: 100px;
+  height: 100px;
+}
+.darker2 {
+  background: #222222;
+  width: 100px;
+  height: 100px;
+}
+.dark2 {
+  background: #333333;
+  width: 100px;
+  height: 100px;
+}
+.base2 {
+  background: #555555;
+  width: 100px;
+  height: 100px;
+}
+.light2 {
+  background: #777777;
+  width: 100px;
+  height: 100px;
+}
+.lighter2 {
+  background: #eeeeee;
+  width: 100px;
+  height: 100px;
 }
